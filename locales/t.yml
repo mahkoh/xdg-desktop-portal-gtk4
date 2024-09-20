@@ -1,0 +1,120 @@
+_version: 2
+Open files read-only:
+  be: Адкрыць файлы ў рэжыме толькі для чытання
+  ca: Obre fitxers de només lectura
+  cs: Otevřít soubory pouze pro čtení
+  da: Åbn filer som skrivebeskyttede
+  de: Dateien schreibgeschützt öffnen
+  en: Open files read-only
+  es: Abrir archivos de sólo lectura
+  gl: Abrir ficheiros en modo só lectura
+  he: פתיחת קבצים לקריאה בלבד
+  hi: फाइलें केवल-पढ़ने के लिए खोलें
+  hr: Otvori datoteke u zaštićenom stanju
+  hu: Fájlok megnyitása csak olvasásra
+  id: Buka berkas hanya-baca
+  ie: Aperter files solmen por letion
+  it: Apri file in sola-lettura
+  ja: 読み取り専用でファイルを開く
+  ka: ფაილის მხოლოდ-წაკითხვად რეჟიმში გახსნა
+  lt: Atverti failus tik skaitymui
+  nl: Bestanden openen als alleen-lezen
+  oc: Dobrir los fichièrs en lectura sola
+  pl: Otwarcie plików tylko do odczytu
+  pt: Abrir ficheiros apenas de leitura
+  ru: Открыть файлы только для чтения
+  sk: Otvoriť súbory iba na čítanie
+  sl: Odpri datoteke samo za branje
+  sv: Öppna filer som skrivskyddade
+  tr: Dosyaları salt okunur aç
+  uk: Відкрити файли лише для читання
+  zh: 以只读方式打开文件
+_Cancel:
+  be: _Скасаваць
+  cs: _Zrušit
+  da: _Annuller
+  de: Abbre_chen
+  en: _Cancel
+  fr: A_nnuler
+  he: _ביטול
+  hi: रद्द करें (_C)
+  hr: _Odustani
+  hu: _Mégse
+  id: Ba_tal
+  ie: A_nullar
+  it: A_nnulla
+  ja: キャンセル(_C)
+  ka: _გაუქმება
+  lt: _Atsisakyti
+  nl: _Annuleren
+  oc: A_nullar
+  pl: _Anuluj
+  ru: _Отменить
+  sk: _Zrušiť
+  sl: Pre_kliči
+  sr: От_кажи
+  sv: _Avbryt
+  tr: _İptal
+  uk: _Скасувати
+  zh: 取消(_C)
+_Open:
+  be: _Адкрыць
+  ca: _Obre
+  cs: _Otevřít
+  da: _Åbn
+  de: _Öffnen
+  en: _Open
+  es: _Abrir
+  fr: _Ouvrir
+  gl: _Abrir
+  he: _פתיחה
+  hi: खोलें (_O)
+  hr: _Otvori
+  hu: _Megnyitás
+  id: B_uka
+  ie: _Aperter
+  it: A_pri
+  ja: 開く(_O)
+  ka: _გახსნა
+  lt: _Atverti
+  oc: _Dobrir
+  pl: _Otwórz
+  pt: _Abrir
+  ru: _Открыть
+  sk: _Otvoriť
+  sl: _Odpri
+  sr: От_вори
+  sv: _Öppna
+  tr: _Aç
+  uk: _Відкрити
+  zh: 打开(_O)
+_Save:
+  be: _Захаваць
+  ca: De_sa
+  cs: _Uložit
+  da: _Gem
+  de: _Speichern
+  en: _Save
+  es: _Guardar
+  gl: _Gardar
+  he: _שמירה
+  hi: सहेजें (_S)
+  hr: _Spremi
+  hu: _Mentés
+  id: _Simpan
+  ie: _Gardar
+  it: _Salva
+  ja: 保存(_S)
+  ka: _შენახვა
+  lt: Į_rašyti
+  nl: Op_slaan
+  oc: _Enregistrar
+  pl: _Zapisz
+  pt: _Gravar
+  ru: _Сохранить
+  sk: _Uložiť
+  sl: _Shrani
+  sv: _Spara
+  tr: _Kaydet
+  uk: _Зберегти
+  zh: 保存(_S)

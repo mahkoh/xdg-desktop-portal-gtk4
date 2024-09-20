@@ -1,0 +1,8 @@
+[Unit]
+Description=Portal service (GTK4 implementation)
+After=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.impl.portal.desktop.gtk4
+ExecStart=@libexecdir@/xdg-desktop-portal-gtk4
