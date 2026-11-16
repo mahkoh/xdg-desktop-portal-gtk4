@@ -1,12 +1,12 @@
-use {
-    log::{Level, LevelFilter},
-    std::{
-        env,
-        fs::File,
-        mem::ManuallyDrop,
-        os::{fd::FromRawFd, linux::fs::MetadataExt},
-    },
+#[cfg(target_os = "linux")]
+use std::{
+    env,
+    fs::File,
+    mem::ManuallyDrop,
+    os::{fd::FromRawFd, linux::fs::MetadataExt},
 };
+
+use log::{Level, LevelFilter};
 
 pub fn init() {
     let mut builder = env_logger::builder();
@@ -35,6 +35,7 @@ pub fn init() {
         .init();
 }
 
+#[cfg(target_os = "linux")]
 fn stderr_is_journal() -> bool {
     let Ok(journal_stream) = env::var("JOURNAL_STREAM") else {
         return false;
@@ -53,4 +54,9 @@ fn stderr_is_journal() -> bool {
         return false;
     };
     metadata.st_dev() == dev && metadata.st_ino() == ino
+}
+
+#[cfg(not(target_os = "linux"))]
+fn stderr_is_journal() -> bool {
+    false
 }
